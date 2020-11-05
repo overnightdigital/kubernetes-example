@@ -6,7 +6,7 @@ https://github.com/kubernetes/minikube/releases/latest/download/minikube-install
 2. Create a Folder and add the PATH to the executable
 
 # Build Docker Images
-docker build -t <user>/client-example -f ./client/Dockerfile ./client
+docker build -t username/client-example -f ./client/Dockerfile ./client
 
 # Push Images to Dockerhub
-docker push <user>/client-example
+docker push username/client-example
